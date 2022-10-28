@@ -876,6 +876,10 @@ ul .active {
 }
 
 .button-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
     margin-top: 9px;
     margin-right: 9px;
     width: 30px;
@@ -883,12 +887,18 @@ ul .active {
     background-color: var(--white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .button-close-icon {
     fill: var(--black-color);
     width: 11px;
     height: 11px;
+}
+
+.button-close-icon:hover,
+.button-close-icon:focus {
+    fill: var(--accent-color);
 }
 
 .occupation-card-text {
