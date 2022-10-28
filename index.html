@@ -56,7 +56,7 @@
         </button>
 
         <form class="form">
-            <p>Залиште свої дані, ми вам передзвонимо</p>
+            <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
             <div class="form-field">
                 <label for="name">Ім'я</label>
                 <input type="text" name="name" id="name">
@@ -78,9 +78,10 @@
                     placeholder="Введіть текст"></textarea>
             </div>
             
-        
-            <input type="checkbox" name="policy" id="policy">
-            <label for="policy">Погоджуюся з розсилкою та приймаю Умови договору</label>
+            <div class="policy">
+                <input type="checkbox" name="policy" id="policy">
+                <label for="policy">Погоджуюся з розсилкою та приймаю <a href="" class="link-policy">Умови договору</a> </label>
+            </div>
 
             <button type="submit">Відправити</button>
         </form>
