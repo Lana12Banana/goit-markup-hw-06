@@ -55,9 +55,11 @@
             </svg>
         </button>
 
-        <form action="">
-            <label for="name">Ім'я</label>
-            <input type="text" name="name" id="name">
+        <form class="form">
+            <div class="form-field">
+                <label for="name">Ім'я</label>
+                <input type="text" name="name" id="name">
+            </div>
         
             <label for="tel">Телефон</label>
             <input type="tel" name="tel" id="tel">
@@ -66,10 +68,10 @@
             <input type="email" name="email" id="email">
             
             <label for="comment">Коментар</label>
-            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введіть текст"></textarea>
         
-            <input type="checkbox" name="license" value="license" id="license">
-            <label for="">Погоджуюся з розсилкою та приймаю Умови договору</label>
+            <input type="checkbox" name="policy" id="policy">
+            <label for="policy">Погоджуюся з розсилкою та приймаю Умови договору</label>
 
             <button type="submit">Відправити</button>
         </form>
@@ -430,9 +432,11 @@
             </ul>
         </div>
 
-        <form action="">
-            <label for="email">Підпишіться на розсилку</label>
-            <input type="email" name="email" id="email">
+        <form class="">
+            <div class="">
+                <label for="email">Підпишіться на розсилку</label>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+            </div>
 
             <button type="submit">Підписатися</button>
         </form>
