@@ -922,3 +922,8 @@ ul .active {
 img {
     display: block;
 }
+
+.form {
+    width: 528px;
+    height: 581px;
+}
