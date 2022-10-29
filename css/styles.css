@@ -1162,6 +1162,7 @@ img {
 
 .button-subscribe {
     display: inline-flex;
+    margin-top: 25px;
     justify-content: center;
     align-items: center;
     width: 100%;
