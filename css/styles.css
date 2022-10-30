@@ -90,15 +90,15 @@ h1,h2,h3,h4,h5,h6,p,ul {
     margin: 0 auto;
 }
 
-/*.header-line {
-    position: fixed;
+.header-line {
+    /*position: fixed;
     width: 100%;
     top: 0;
-    left: 0;
+    left: 0;*/
     min-height: 80px;
-    background-color: var(--white-color);
+    /*background-color: var(--white-color);*/
     border-bottom: 1px solid #ECECEC;
-}*/
+}
 
 .link-current {
     position: relative;
@@ -392,10 +392,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 
-/*.section.no-padding {
+.section.no-padding {
     padding-top: 0;
-    padding-bottom: 0;
-}*/
+}
 
 .advantages-title {
     margin-top: 0;
@@ -599,9 +598,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
     border-radius: 4px;
     text-align: center;
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadov 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons li :hover,
