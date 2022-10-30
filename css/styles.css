@@ -338,6 +338,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 .contacts-icon-smartphone,
 .contacts-icon-email {
     margin-right: 10px;
+    margin-top: 8px;
 
     transition-property: fill;
     transition-duration: 250ms;
@@ -678,6 +679,19 @@ ul .active {
     text-transform: uppercase;
 }
 
+.footer-title-subscribe {
+    margin-left: 93px;
+    color: var(--white-color);
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .footer-icon {
     width: 20px;
     height: 20px;
@@ -932,10 +946,12 @@ img {
 
 .form {
     width: 528px;
-    height: 581px;
     margin-left: auto;
     margin-right: auto;
-    padding: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .form-field {
@@ -976,6 +992,7 @@ img {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     cursor: pointer;
+    outline: none;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1013,7 +1030,8 @@ img {
     color: rgba(117, 117, 117, 0.5);
 
     cursor: pointer;
-    
+    resize: none;
+    outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1023,9 +1041,13 @@ img {
 }
 
 .form-title {
-    margin-top: 0;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    margin-top: 40px;
     margin-bottom: 12px;
-
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -1069,6 +1091,7 @@ img {
     color: var(--accent-color);
     text-decoration-line: underline;
     text-decoration-skip-ink: none;
+    margin-left: 4px;
 }
 
 .icons-form {
@@ -1131,7 +1154,7 @@ img {
 .form-field-footer input {
     margin: 0;
     padding: 0;
-    height: 40px;
+    height: 50px;
     width: 358px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: transparent;
@@ -1159,7 +1182,6 @@ img {
 
 .button-subscribe {
     display: inline-flex;
-    margin-top: 25px;
     justify-content: center;
     align-items: center;
     width: 100%;
